@@ -225,6 +225,9 @@ function changeMonth(dir) {
 }
 
 renderCalendar(currentYear, currentMonth);
+  if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js');
+  }
 </script>
 </body>
 </html>
