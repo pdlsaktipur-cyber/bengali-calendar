@@ -1,0 +1,16 @@
+{
+  "name": "বাঙালি মাসিক ক্যালেন্ডার",
+  "short_name": "বাংলা ক্যালেন্ডার",
+  "start_url": "./index.html",
+  "display": "standalone",
+  "background_color": "#FFFACD",
+  "theme_color": "#FF6600",
+  "widgets": [
+    {
+      "name": "আজকের তারিখ",
+      "short_name": "তারিখ",
+      "description": "আজকের বাংলা ও ইংরেজি তারিখ এবং চলতি মাসের ক্যালেন্ডার দেখুন।",
+      "action": "./index.html"
+    }
+  ]
+}
